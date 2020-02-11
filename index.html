@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 
+  <link rel="stylesheet"  href="css/estilo.css">
+
+  <script> 
+$(document).ready(function(){
+  $("#segunda").mouseover(function(){
+    $("#aulasterca").slideUp("slow");
+    $("#aulasquarta").slideUp("slow");
+    $("#aulasquinta").slideUp("slow");
+    $("#aulassexta").slideUp("slow");
+    $("#aulasegunda").slideToggle("slow");
+
+  });
+  $("#teca").mouseover(function(){
+     $("#aulasegunda").slideUp("slow");
+    $("#aulasquarta").slideUp("slow");
+    $("#aulasquinta").slideUp("slow");
+    $("#aulassexta").slideUp("slow");
+    $("#aulasterca").slideToggle("slow");
+  });
+  $("#quarta").mouseover(function(){
+     $("#aulasterca").slideUp("slow");
+    $("#aulasegunda").slideUp("slow");
+    $("#aulasquinta").slideUp("slow");
+    $("#aulassexta").slideUp("slow");
+    $("#aulasquarta").slideToggle("slow");
+  });
+  $("#quita").mouseover(function(){
+     $("#aulasterca").slideUp("slow");
+    $("#aulasquarta").slideUp("slow");
+    $("#aulasegunda").slideUp("slow");
+    $("#aulassexta").slideUp("slow");
+    $("#aulasquinta").slideToggle("slow");
+  });
+  $("#sexta").mouseover(function(){
+     $("#aulasterca").slideUp("slow");
+    $("#aulasquarta").slideUp("slow");
+    $("#aulasquinta").slideUp("slow");
+    $("#aulasegunda").slideUp("slow");
+    $("#aulassexta").slideToggle("slow");
+  });
+
+});
+</script>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="background-color: #6666ff;">
+  <h1>AULAS DA SEMANA</h1>
+  <p>Consulte sua aula rapidamente!</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+  	<div class="col-sm-1"></div>
+    <div class="col-sm-2" id="segunda">
+      <h3>Segunda</h3>
+      <div  id="aulasegunda">
+      <p>Programção web</p>
+      <p>Programação web</p>
+      <p>Programação web</p>
+      <p>Técnicas de Programção</p>
+      <p>Técnicas de Programação</p>
+      </div>
+    </div>
+    <div class="col-sm-2" id="teca">
+      <h3>Terça</h3>
+      <div  id="aulasterca">
+        <p>Banco de Dados I</p>
+        <p>Banco de Dados I</p>
+        <p>Banco de Dados I</p>
+        <p>Programção e Algoritimos </p>
+        <p>Programação e Algoritimos</p>
+      </div>
+     </div>
+
+    
+    <div class="col-sm-2" id="quarta">
+      <h3>Quarta</h3>        
+      <div id="aulasquarta">
+        <p>Design Digital</p>
+        <p>Design Digital</p>
+        <p>Programção e Algoritimos</p>
+        <p>Linguagem Trabalho e tecnologia</p>
+        <p>Linguagem Tabalho e Tecnologia</p>
+        
+      </div>
+      
+    </div>
+    <div class="col-sm-2" id="quita">
+      <h3>Quinta</h3>        
+      <div id="aulasquinta">
+        <p>Progamação e Algoritimos</p>
+        <p>Progamação e Algoritimos</p>
+        <p>Progamação e Algoritimos</p>
+        <p>Fudamentos de Informatica</p>
+        <p>Fudamentos de Informatica</p>
+      </div>
+      
+    </div>
+    <div class="col-sm-2" id="sexta">
+      <h3>Sexta</h3>  
+      <div id="aulassexta">
+      <p>Análise e Projeto de Sistemas</p>
+      <p>Análise e Projeto de Sistemas</p>
+      <p>Análise e Projeto de Sistemas</p>
+      <p>Programação Web I</p>
+      <p>Programação Web I</p>
+
+     
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

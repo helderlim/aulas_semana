@@ -1,0 +1,18 @@
+
+#aulasegunda, #aulasquarta, #aulasquinta, #aulasterca, #aulassexta {
+  padding: 5px;
+  text-align: center;
+  background-color: #6699ff;
+  border: solid 1px #c3c3c3;
+}
+
+#aulasegunda,{
+  padding: 10px;
+  display: none;
+}
+
+
+#aulasterca, #aulasegunda, #aulasquinta, #aulassexta, #aulasquarta {
+  padding: 10px;
+  display: none;
+}
